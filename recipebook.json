@@ -1,0 +1,22 @@
+{
+  "recipes": [
+    {
+      "name": "Egg Fried Rice",
+      "link": "https://www.youtube.com/watch?v=qH__o17xHls",
+      "ingredients": ["Cooking Oil", "Egg", "Jasmine Rice", "Soy Sauce", "Salt", "Green Onion"]
+    },
+
+    {
+      "name": "Oil",
+      "link": "https://www.youtube.com/watch?v=qH__o17xHls",
+      "ingredients": ["Cooking Oil", "Grass"]
+    },
+
+    {
+      "name": "Southern Fried Chicken",
+      "link": "https://www.youtube.com/watch?v=pSPWszeTxRc",
+      "ingredients": ["Chicken", "Flour", "Paprika", "Black Pepper", "Garlic Powder", "Salt", "Chili Powder", "Egg"]
+    }
+
+  ]
+}
