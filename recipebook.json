@@ -2,20 +2,211 @@
   "recipes": [
     {
       "name": "Egg Fried Rice",
-      "link": "https://www.youtube.com/watch?v=qH__o17xHls",
-      "ingredients": ["Cooking Oil", "Egg", "Jasmine Rice", "Soy Sauce", "Salt", "Green Onion"]
+      "link": "https://www.youtube.com/embed/qH__o17xHls",
+      "ingredients": ["Oil", "Eggs", "Jasmine Rice", "Soy Sauce", "Salt", "Green Onions"],
+      "quantity":["3 tbsp cooking oil",
+                  "4 eggs, beaten with pinch of salt",
+                  "4 cups cold jasmine rice",
+                  "2 tbsp soy sauce",
+                  "pinch of salt",
+                  "4 green onions, sliced"
+      ]
     },
 
+
     {
-      "name": "Oil",
-      "link": "https://www.youtube.com/watch?v=qH__o17xHls",
-      "ingredients": ["Cooking Oil", "Grass"]
+      "name": "Chicken Fettuccine Alfredo",
+      "link": "https://www.youtube.com/embed/LPPcNPdq_j4",
+      "ingredients": ["Chicken Breast", "Fettuccine Pasta", "White Mushrooms", "Onions", "Garlic", "Half & Half",
+        "Parsley", "Salt", "Black Pepper", "Olive Oil", "Butter"],
+      "quantity":["2 lbs Chicken Breast",
+                  "3/4 lbs fettuccine pasta (or angel hair or vermicelli pasta)",
+                  "1 lb white mushrooms thickly sliced",
+                  "1 small onion finely chopped",
+                  "3 cloves garlic minced",
+                  "3 1/2 cups half and a half",
+                  "1/4 cup parsley, finely chopped, plus more for garnish",
+                  "1 tsp sea salt or to taste, plus more for pasta water",
+                  "1/4 tsp black pepper or to taste",
+                  "3 Tbsp olive oil divided",
+                  "1 Tbsp butter"
+      ]
     },
+
+
+    {
+      "name": "Falafel",
+      "link": "https://www.youtube.com/embed/qmPdNOtNvYo",
+      "ingredients": ["Chickpeas", "Onions", "Garlic", "Parsley", "Cilantro", "Flour", "Salt", "Black Pepper", "Cumin",
+        "Paprika", "Baking Soda", "Oil"],
+      "quantity":["2 cups (400g) dried chickpeas, don’t use canned",
+                  "1 small Onion",
+                  "3-5 garlic cloves",
+                  "1/3 bunch Parsley",
+                  "1/2 bunch Cilantro",
+                  "4 tablespoons (30g) Flour/breadcrumbs or chickpea flour for gluten free version",
+                  "1 1/4 teaspoon Salt",
+                  "1/4 teaspoon Black Pepper",
+                  "1 teaspoon Cumin",
+                  "1 teaspoon Paprika",
+                  "2 teaspoons baking soda",
+                  "Oil for frying"
+      ]
+    },
+
+
+    {
+      "name": "Sweet and Sour Pork Loin",
+      "link": "https://www.youtube.com/embed/OhOoGTuGfHE",
+      "ingredients": ["Pork", "Soy Sauce", "Baking Soda", "Salt", "Eggs", "Flour", "Baking Powder", "Oil", "Ketchup",
+        "Sugar", "Vinegar", "Cornstarch", "Salt", "Lemon Zest"],
+      "quantity":["250 grams of pork tender",
+                  "1 tbsp of soy sauce",
+                  "1/4 tsp of baking soda",
+                  "1/4 tsp of salt",
+                  "1 egg",
+                  "1/4 cup of all-purpose flour",
+                  "3 tbsp of water",
+                  "1/2 tsp of baking powder",
+                  "Enough oil to deep fry",
+                  "1/4 cup of ketchup",
+                  "1/4 cup of water",
+                  "1/4 cup of sugar",
+                  "3 tbsp of vinegar",
+                  "Cornstarch water: 1 tbsp of cornstarch + 1 table of water",
+                  "3/4 tsp of salt or to taste",
+                  "Some dried orange peel (can be switched with fresh orange peel or lemon zest)"
+      ]
+    },
+
+
+    {
+      "name": "Butter Garlic Scallops",
+      "link": "https://www.youtube.com/embed/4HXkk4dC5Xc",
+      "ingredients": ["Scallops", "Butter", "Kosher Salt", "Black Pepper", "Garlic", "Lemon Zest", "Parsley"],
+      "quantity":["1 lb Sea Scallops",
+                  "3 tbsp Butter",
+                  "1 tbsp Kosher Salt",
+                  "1 tbsp Fresh Ground Pepper",
+                  "2 Garlic Cloves (minced)",
+                  "Juice of a Lemon",
+                  "2 tbsp Chopped Fresh Parsley (garnish)"
+      ]
+    },
+
+
+    {
+      "name": "Beef Tenderloin Roast",
+      "link": "https://www.youtube.com/embed/lkvcewGSjDY",
+      "ingredients": ["Tenderloin Roast", "Pink Peppercorns", "Green Peppercorns", "Salt", "Kosher Salt", "Olive Oil"],
+      "quantity":["1 (3-pound) Certified Angus Beef ® tenderloin roast",
+                  "1 teaspoon pink peppercorns",
+                  "1 teaspoon coarsely ground green peppercorns",
+                  "1 teaspoon smoked salt",
+                  "1 teaspoon kosher salt",
+                  "1 teaspoon olive oil"
+      ]
+    },
+
+
+    {
+      "name": "Shakshuka - Eggs in Tomato Sauce",
+      "link": "https://www.youtube.com/embed/618QsMaVXp8",
+      "ingredients": ["Olive Oil", "Onions", "Garlic", "Red Bell Pepper", "Tomatoes", "Tomato Paste", "Chilli Powder",
+        "Cumin", "Paprika", "Chilli Flakes", "Sugar", "Salt", "Black Pepper", "Eggs", "Parsley"],
+      "quantity":["1 tbsp olive oil",
+                  "1 medium onion, diced",
+                  "2 cloves garlic, minced",
+                  "1 medium red bell pepper, chopped",
+                  "2 cans (14 oz.400g each) diced tomatoes",
+                  "2 tbsp (30g) tomato paste",
+                  "1 tsp chilli powder",
+                  "1 tsp ground cumin",
+                  "1 tsp paprika",
+                  "chilli flakes, to taste",
+                  "1 tsp sugar",
+                  "salt and freshly ground black pepper",
+                  "6 eggs",
+                  "fresh parsley/cilantro for garnish"
+      ]
+    },
+
+
+    {
+      "name": "Pasta Carbonara with Bacon",
+      "link": "https://www.youtube.com/embed/Z3jV05HeGXQ",
+      "ingredients": ["Spaghetti Pasta", "Salt", "Bacon", "Garlic", "Eggs", "Half & Half", "Parmesan Cheese",
+        "Black Pepper", "Parsley"],
+      "quantity":["1 lb. Spaghetti Pasta",
+                  "1 Tbsp. Salt",
+                  "1 lb. Thick Cut Bacon or Pancetta (chopped)",
+                  "1 Tbsp. Minced Garlic",
+                  "4 Egg Yolks",
+                  "2 Whole Eggs",
+                  "2-3 Tbsp. Half and Half",
+                  "1 1/2 Cups Grated Romano Parmesan Blend Cheese (divided)",
+                  "1/2 Tsp. Ground Black Pepper",
+                  "2 Tbsp. Fresh Parsley (chopped)"
+      ]
+    },
+
+
+    {
+      "name": "Chicken Parmesan",
+      "link": "https://www.youtube.com/embed/7USty3kc1YQ",
+      "ingredients": ["Chicken Breast", "Oil", "Eggs", "Breadcrumbs", "Flour", "Milk", "Parmesan Cheese",
+        "Mozzarella Cheese", "Marinara Sauce", "Parsley", "Salt", "Garlic", "Black Pepper"],
+      "quantity":["3 Large Boneless Chicken Breast",
+                  "2 Cups Vegetable Oil",
+                  "2 Large Eggs",
+                  "1 Cup Italian Breadcrumbs",
+                  "1/2 Cup All-Purpose Flour",
+                  "1/4 Cup Whole Milk",
+                  "3/4 Cup Shredded Parmesan Cheese",
+                  "3/4 Cup Shredded Mozzarella Cheese",
+                  "1 Cup Marinara Sauce",
+                  "1 Tbs Parsley Flakes",
+                  "2 Tsp Salt",
+                  "1 Tsp Garlic Powder",
+                  "1/2 Tsp Black Pepper"
+      ]
+    },
+
+
+    {
+      "name": "Baked Eggplant Parmesan",
+      "link": "https://www.youtube.com/embed/rLZsKI8dcvo",
+      "ingredients": ["Eggplants", "Salt", "Flour", "Black Pepper", "Breadcrumbs", "Garlic", "Marinara Sauce",
+        "Mozzarella Cheese", "Basil", "Parmesan Cheese"],
+      "quantity":["3 large eggplants",
+                  "1 teaspoon salt",
+                  "1 cup all purpose flour",
+                  "1/4 teaspoon pepper",
+                  "2 large eggs",
+                  "1 cup panko bread crumbs",
+                  "1 cup Italian style bread crumbs",
+                  "1 teaspoon garlic powder",
+                  "2 cups marinara sauce",
+                  "8 ounces fresh mozzarella, sliced",
+                  "1/4 cup chopped fresh basil",
+                  "1/2 cup freshly grated parmesan cheese"
+      ]
+    },
+
 
     {
       "name": "Southern Fried Chicken",
-      "link": "https://www.youtube.com/watch?v=pSPWszeTxRc",
-      "ingredients": ["Chicken", "Flour", "Paprika", "Black Pepper", "Garlic Powder", "Salt", "Chili Powder", "Egg"]
+      "link": "https://www.youtube.com/embed/pSPWszeTxRc",
+      "ingredients": ["Chicken", "Flour", "Paprika", "Black Pepper", "Garlic Powder", "Salt", "Chilli Powder", "Egg"],
+      "quantity":["Chicken",
+                  "200g Plain Flour",
+                  "2 tsp Paprika",
+                  "1 tsp Black Pepper",
+                  "1 tsp Garlic Powder",
+                  "1 tsp Salt",
+                  "2 tsp Chilli Powder",
+                  "2 Eggs"
+      ]
     }
 
   ]
