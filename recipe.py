@@ -1,7 +1,10 @@
 import json
 
 
+# find all possible recipes that can be made with the current ingredients
 def recipe_find(ingredients):
+
+    # store the recipes from the json file as a list
     with open("recipebook.json", encoding="utf8") as read_file:
         data = json.load(read_file)
 
@@ -9,7 +12,13 @@ def recipe_find(ingredients):
 
     matches = []
 
+    # eliminate human error
+    ingredients = list(map(str.lower, ingredients))
+    ingredients = list(map(str.strip, ingredients))
+
+    # add a recipe to matches if the user has the correct ingredients
     for x in recipes:
+        x["ingredients"] = list(map(str.lower, x["ingredients"]))
         c = all(i in ingredients for i in x["ingredients"])
         if c is True:
             matches.append(x)
@@ -17,6 +26,7 @@ def recipe_find(ingredients):
     return matches
 
 
+# find the YouTube thumbnail based on the link of the video
 def thumbnail(url):
    str = "https://i.ytimg.com/vi/___/maxresdefault.jpg"
 
@@ -25,6 +35,7 @@ def thumbnail(url):
    return newStr
 
 
+# find the information of a recipe based on the name
 def reverse_lookup(name):
     with open("recipebook.json", encoding="utf8") as read_file:
         data = json.load(read_file)
@@ -34,4 +45,3 @@ def reverse_lookup(name):
     for x in recipes:
         if x["name"] == name:
             return x
-
