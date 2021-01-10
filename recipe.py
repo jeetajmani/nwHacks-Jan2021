@@ -15,10 +15,3 @@ def recipe_find(ingredients):
             matches.append(x)
 
     return matches
-
-
-ing = ['Cooking Oil', 'Egg', 'Jasmine Rice', 'Soy Sauce', 'Salt', 'Green Onion']
-
-recipes = recipe_find(ing)
-
-print(recipes)
