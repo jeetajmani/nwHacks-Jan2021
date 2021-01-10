@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="76a50702-deb2-4664-816d-dc6fe03682b0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/.idea/Flask-React.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/.idea/Flask-React.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/app/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/app/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/app/api/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/app/api/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/app/api/api.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/app/api/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/app/api/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/flask/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/react-frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/react-frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/react-frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/react-frontend/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/react-frontend/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/react-frontend/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/react-frontend/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/react-frontend/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/react-frontend/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/react-frontend/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/react-frontend/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/react-frontend/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/react-frontend/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/react-frontend/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/react-frontend/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/react-frontend/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/react-frontend/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/react-frontend/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/venv/Lib/site-packages/Flask-1.1.2.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/venv/Lib/site-packages/Flask-1.1.2.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/venv/Lib/site-packages/pip-20.3.3.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/venv/Lib/site-packages/pip-20.3.3.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/venv/Lib/site-packages/setuptools-51.1.2.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/venv/Lib/site-packages/setuptools-51.1.2.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/venv/Scripts/activate" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/venv/Scripts/activate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/venv/Scripts/activate.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/venv/Scripts/activate.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/venv/Scripts/easy_install-3.8.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/venv/Scripts/easy_install-3.8.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/venv/Scripts/easy_install.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/venv/Scripts/easy_install.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/venv/Scripts/flask.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/venv/Scripts/flask.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/venv/Scripts/pip.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/venv/Scripts/pip.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/venv/Scripts/pip3.8.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/venv/Scripts/pip3.8.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/venv/Scripts/pip3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/venv/Scripts/pip3.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaScript/react/Flask-React/venv/pyvenv.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo.db" beforeDir="false" afterPath="$PROJECT_DIR$/todo.db" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mr2ldNC1Pfm8VOJyUsREB61D1T" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="nwHacks" type="Python.FlaskServer">
+      <module name="nwHacks" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76a50702-deb2-4664-816d-dc6fe03682b0" name="Default Changelist" comment="" />
+      <created>1610237542418</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610237542418</updated>
+      <workItem from="1610237560725" duration="57340000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="jinja2-line">
+          <url>file://$PROJECT_DIR$/templates/recipe.html</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
