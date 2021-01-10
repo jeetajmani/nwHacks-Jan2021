@@ -6,10 +6,10 @@ Cookify is a web-based application that displays relevant recipes based on the u
 
 ## Technology
 
-Python 3.8
-Flask
-HTML
-CSS
-Bootstrap
-Jinja 2
-SQLAlchemy
+* Python 3.8
+* Flask
+* HTML
+* CSS
+* Bootstrap
+* Jinja 2
+* SQLAlchemy
