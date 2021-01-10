@@ -1,5 +1,7 @@
 from flask import  Flask, render_template, url_for, redirect, request, send_file
 from flask_sqlalchemy import SQLAlchemy
+import recipe
+
 ''' create instance of Flask web app '''
 app = Flask(__name__)
 
@@ -30,12 +32,51 @@ def add():
 
 @app.route('/complete', methods=['POST'])
 def complete():
-    id = request.form.get('id')
-    item = Item.query.filter_by(id=int(id)).first()
+    ID = request.form.get('id')
+    item = Item.query.filter_by(id=int(ID)).first()
     item.complete = True
     db.session.commit()
 
     return redirect(url_for('home'))
+
+@app.route('/topDishes')
+def topDishes():
+
+    dishes = top_dish_helper()
+
+    urls = []
+
+    for x in dishes:
+        urls.append(recipe.thumbnail(x["link"]))
+
+    print(urls)
+
+    return render_template('recipe.html', dishes=dishes, urls=urls)
+
+@app.route('/display/<name>')
+def display(name):
+
+    dish = recipe.reverse_lookup(name)
+    print(dish)
+    return render_template('display.html', dish=dish)
+
+
+
+
+
+
+
+def top_dish_helper():
+    incomplete = Item.query.filter_by(complete=False).all()
+    ing = []
+    for i in incomplete:
+        ing.append(i.text)
+    dishes = recipe.recipe_find(ing)
+
+    return dishes
+
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)
