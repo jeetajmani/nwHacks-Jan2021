@@ -17,8 +17,8 @@ db.create_all()
 ''' in the route parameter is to give a path to the method (web query) '''
 @app.route("/")
 def home():
-    allItems = Item.query.all()
-    return render_template('home.html', allItems=allItems)
+    incomplete = Item.query.filter_by(complete=False).all()
+    return render_template('home.html', incomplete=incomplete)
 
 @app.route('/add', methods=['POST'])
 def add():
@@ -30,8 +30,10 @@ def add():
 
 @app.route('/complete', methods=['POST'])
 def complete():
-    id = request.form.get('hello')
+    id = request.form.get('id')
     item = Item.query.filter_by(id=int(id)).first()
+    item.complete = True
+    db.session.commit()
 
     return redirect(url_for('home'))
 
