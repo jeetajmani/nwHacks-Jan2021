@@ -16,14 +16,25 @@ def recipe_find(ingredients):
     ingredients = list(map(str.lower, ingredients))
     ingredients = list(map(str.strip, ingredients))
 
+    count = 0
+
     # add a recipe to matches if the user has the correct ingredients
     for x in recipes:
+        count = len(x["ingredients"])
         x["ingredients"] = list(map(str.lower, x["ingredients"]))
         c = all(i in ingredients for i in x["ingredients"])
         if c is True:
-            matches.append(x)
+            matches.append([x,0])
+        else:
+            # prioritize recipes in ascending order based on number of missing ingredients
+            for y in x["ingredients"]:
+                if y in ingredients:
+                    count -= 1
+            matches.append([x, count])
 
-    return matches
+    matches.sort(key=lambda z: z[1])
+    matches = [q for q in matches if q[1] < 4]
+    return matches[:3]
 
 
 # find the YouTube thumbnail based on the link of the video
