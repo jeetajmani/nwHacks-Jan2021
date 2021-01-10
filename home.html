@@ -15,11 +15,10 @@
 
     <form action="{{ url_for('complete') }}" method="POST">
         <ul>
-            {% for item in allItems %}
+            {% for item in incomplete %}
                 <li><input name="id" type="checkbox" value={{ item.id }}>{{ item.text }}</li>
             {% endfor %}
         </ul>
-    <input type="checkbox">
     <input type="submit" value="update items">
     <form>
 
