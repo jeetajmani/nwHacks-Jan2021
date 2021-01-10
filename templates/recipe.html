@@ -10,14 +10,17 @@
 {% set count= {'c': 0} %}
 {% for dish in dishes %}
     {% set image = urls[count.c] %}
-    {% if count.update({'c': count.c + 1}) %}{% endif %}
+
 
     <a href="{{ url_for('display', name=dish.name)}}">
         <img src="{{ image }}" alt="Girl in a jacket" width="300" height="200">
     </br>
         <h>{{ dish.name }}</h>
+    </br>
 
     </a>
+    <h>{{ pri[count.c] }} missing ingredients</h>
+    {% if count.update({'c': count.c + 1}) %}{% endif %}
     </br>
 {% endfor %}
 {% endblock %}

@@ -25,33 +25,41 @@ def home():
 @app.route('/add', methods=['POST'])
 def add():
     item = Item(text=request.form['items'], complete=False)
-    db.session.add(item)
-    db.session.commit()
+
+    if (item.text.strip() != ""):
+        db.session.add(item)
+        db.session.commit()
 
     return redirect(url_for('home'))
 
 @app.route('/complete', methods=['POST'])
 def complete():
-    ID = request.form.get('id')
-    item = Item.query.filter_by(id=int(ID)).first()
-    item.complete = True
-    db.session.commit()
+    if request.method == "POST":
+        ID = request.form.get('id')
+        if (ID is not None):
+            item = Item.query.filter_by(id=int(ID)).first()
+            item.complete = True
+            db.session.commit()
 
-    return redirect(url_for('home'))
+        return redirect(url_for('home'))
 
 @app.route('/topDishes')
 def topDishes():
-
     dishes = top_dish_helper()
+
+    priority = []
 
     urls = []
 
     for x in dishes:
-        urls.append(recipe.thumbnail(x["link"]))
+        urls.append(recipe.thumbnail(x[0]["link"]))
+        priority.append(x[1])
 
     print(urls)
 
-    return render_template('recipe.html', dishes=dishes, urls=urls)
+    dishes = [q[0] for q in dishes]
+
+    return render_template('recipe.html', dishes=dishes, urls=urls, pri=priority)
 
 @app.route('/display/<name>')
 def display(name):

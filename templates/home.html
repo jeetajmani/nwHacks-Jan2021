@@ -1,17 +1,71 @@
 {% extends "base.html" %}
-{% block title %}Dating App{% endblock %}
+{% block title %}Cookify{% endblock %}
 {% block script %}
 <script type="text/javascript" src="{{url_for('static', filename='input.js')}}"></script>
 {% endblock %}
 {% block content %}
-<h2>HomePage</h2>
+<h2 class="PageHeader">My Ingredients</h2>
 <br>
-<p>ToDo<p>
 
-<form action="{{ url_for('add') }}" method="POST">
-    <input type="text" name="items">
-    <input type="submit" value="add items">
+  <div class="form-group">
+<form action="{{ url_for('add') }}" method="POST" autocomplete="off">
+
+    <input type="text" id="ingredient" name="items" list="ingredient-list" placeholder="Add Item" style="width:80%">
+    <datalist id="ingredient-list">
+            <option>Bacon</option>
+            <option>Baking Powder</option>
+            <option>Baking Soda</option>
+            <option>Basil</option>
+            <option>Black Pepper</option>
+            <option>Breadcrumbs</option>
+            <option>Butter</option>
+            <option>Chicken</option>
+            <option>Chicken Breast</option>
+            <option>Chickpeas</option>
+            <option>Chilli Flakes</option>
+            <option>Chilli Powder</option>
+            <option>Cilantro</option>
+            <option>Cornstarch</option>
+            <option>Cumin</option>
+            <option>Eggplants</option>
+            <option>Eggs</option>
+            <option>Fettuccine Pasta</option>
+            <option>Flour</option>
+            <option>Garlic</option>
+            <option>Garlic Powder</option>
+            <option>Green Onions</option>
+            <option>Green Peppercorns</option>
+            <option>Half & Half</option>
+            <option>Jasmine Rice</option>
+            <option>Ketchup</option>
+            <option>Kosher Salt</option>
+            <option>Lemon Zest</option>
+            <option>Marinara Sauce</option>
+            <option>Milk</option>
+            <option>Mozzarella Cheese</option>
+            <option>Oil</option>
+            <option>Olive Oil</option>
+            <option>Onions</option>
+            <option>Paprika</option>
+            <option>Parmesan Cheese</option>
+            <option>Parsley</option>
+            <option>Pink Peppercorns</option>
+            <option>Pork</option>
+            <option>Red Bell Pepper</option>
+            <option>Salt</option>
+            <option>Scallops</option>
+            <option>Soy Sauce</option>
+            <option>Spaghetti Pasta</option>
+            <option>Sugar</option>
+            <option>Tenderloin Roast</option>
+            <option>Tomato Paste</option>
+            <option>Tomatoes</option>
+            <option>Vinegar</option>
+            <option>White Mushrooms</option>
+    </datalist>
+      <input type="submit" value="add items" style="width:10%">
 </form>
+  </div>
 
     <form action="{{ url_for('complete') }}" method="POST">
         <ul>

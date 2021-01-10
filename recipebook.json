@@ -155,7 +155,7 @@
       "name": "Chicken Parmesan",
       "link": "https://www.youtube.com/embed/7USty3kc1YQ",
       "ingredients": ["Chicken Breast", "Oil", "Eggs", "Breadcrumbs", "Flour", "Milk", "Parmesan Cheese",
-        "Mozzarella Cheese", "Marinara Sauce", "Parsley", "Salt", "Garlic", "Black Pepper"],
+        "Mozzarella Cheese", "Marinara Sauce", "Parsley", "Salt", "Garlic Powder", "Black Pepper"],
       "quantity": ["3 Large Boneless Chicken Breast",
                   "2 Cups Vegetable Oil",
                   "2 Large Eggs",
@@ -176,7 +176,7 @@
     {
       "name": "Baked Eggplant Parmesan",
       "link": "https://www.youtube.com/embed/rLZsKI8dcvo",
-      "ingredients": ["Eggplants", "Salt", "Flour", "Black Pepper", "Breadcrumbs", "Garlic", "Marinara Sauce",
+      "ingredients": ["Eggplants", "Salt", "Flour", "Black Pepper", "Breadcrumbs", "Garlic Powder", "Marinara Sauce",
         "Mozzarella Cheese", "Basil", "Parmesan Cheese"],
       "quantity": ["3 large eggplants",
                   "1 teaspoon salt",
