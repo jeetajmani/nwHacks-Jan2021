@@ -1,14 +1,13 @@
 {% extends "base.html" %}
 {% block title %}Cookify{% endblock %}
 {% block script %}
-<script type="text/javascript" src="{{url_for('static', filename='input.js')}}"></script>
 {% endblock %}
 {% block content %}
 <h2 class="PageHeader">My Ingredients</h2>
 <br>
 
   <div class="form-group">
-<form action="{{ url_for('add') }}" method="POST" autocomplete="off">
+<form action="{{ url_for('add') }}" method="POST" autocomplete="off" style="alignment: center">
 
     <input type="text" id="ingredient" name="items" list="ingredient-list" placeholder="Add Item" style="width:80%">
     <datalist id="ingredient-list">
@@ -63,21 +62,41 @@
             <option>Vinegar</option>
             <option>White Mushrooms</option>
     </datalist>
-      <input type="submit" value="add items" style="width:10%">
+      <input id="checkedBox" type="submit" value="✓">
 </form>
   </div>
 
-    <form action="{{ url_for('complete') }}" method="POST">
-        <ul>
-            {% for item in incomplete %}
-                <li><input name="id" type="checkbox" value={{ item.id }}>{{ item.text }}</li>
-            {% endfor %}
-        </ul>
-    <input type="submit" value="update items">
-    <form>
 
-    <i class="glyphicon glyphicon-cloud">
-        <a href="{{ url_for('topDishes') }}">suggested Recipies</a>>
-    </i>
+ <div class="Content">
+            {% for item in incomplete %}
+
+                <tr>
+                    <div id="items">
+                        <td>
+                            <div class="row">
+                                <div class="col-10">
+                                    {{ item.text }}
+                                </div>
+                                <div class="col-2">
+                                    <a href="{{ url_for('complete', id=item.id)}}">Delete</a>
+                                </div>
+                            </div>
+                        </td>
+                    </div>
+                </tr>
+                </br>
+            {% endfor %}
+</div>
+<div class="footer">
+    <div class="row">
+        <div class="col-6">
+            <img src="static/img2.png" width="40em" height="60em">
+        </div>
+        <div class="col-6">
+            <a href="{{ url_for('topDishes') }}"><img src="static/img1.png" width="40em" height="60em"></a>
+        </div>
+    </div>
+</div>
+
 
 {% endblock %}

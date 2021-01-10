@@ -19,8 +19,10 @@ body {
 button,
 input {
 	padding: 0.5em 1em;
-	width: 100%;
 	margin: 10px;
+}
+
+.fa-check{
 
 }
 
@@ -31,6 +33,53 @@ label {
 	padding: 0.25em 0.5em;
 	width: 100%;
 }
+
 .PageHeader{
+	padding-top: 20px;
     text-align: center;
 }
+
+#items {
+	border-bottom: solid 3px cornflowerblue;
+	padding: 10px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+	height: 80px;
+	line-height: 80px;
+}
+
+#checkedBox{
+	width:10%;
+}
+@media only screen and (max-width: 530px) {
+#checkedBox {
+    width:100%;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+#ingredient{
+  width:100%!important;
+  }
+}
+
+.Content
+{
+  	height:450px;
+   	overflow:scroll;
+	overflow-x: hidden;
+    background:#fff;
+}
+
+.horizontalCenter{
+	text-align: center;
+}
+

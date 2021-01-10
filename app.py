@@ -32,10 +32,10 @@ def add():
 
     return redirect(url_for('home'))
 
-@app.route('/complete', methods=['POST'])
-def complete():
-    if request.method == "POST":
-        ID = request.form.get('id')
+@app.route('/complete/<id>')
+def complete(id):
+
+        ID = id
         if (ID is not None):
             item = Item.query.filter_by(id=int(ID)).first()
             item.complete = True

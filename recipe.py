@@ -39,7 +39,7 @@ def recipe_find(ingredients):
 
 # find the YouTube thumbnail based on the link of the video
 def thumbnail(url):
-   str = "https://i.ytimg.com/vi/___/maxresdefault.jpg"
+   str = "https://img.youtube.com/vi/___/0.jpg"
 
    newStr = str.replace("___", url[30:])
 

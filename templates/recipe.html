@@ -1,26 +1,43 @@
 {% extends "base.html" %}
-{% block title %}Coo{% endblock %}
+{% block title %}Recipes{% endblock %}
 {% block script %}
-<script type="text/javascript" src="{{url_for('static', filename='input.js')}}"></script>
 {% endblock %}
 {% block content %}
-<h2>Recipe</h2>
+<h2 class="PageHeader">Recipes</h2>
 <br>
 
 {% set count= {'c': 0} %}
-{% for dish in dishes %}
-    {% set image = urls[count.c] %}
 
+<div class="Content" style="height:520px;">
+    {% for dish in dishes %}
+        {% set image = urls[count.c] %}
 
-    <a href="{{ url_for('display', name=dish.name)}}">
-        <img src="{{ image }}" alt="Girl in a jacket" width="300" height="200">
-    </br>
-        <h>{{ dish.name }}</h>
-    </br>
+    <div class="horizontalCenter">
+        <a href="{{ url_for('display', name=dish.name)}}">
+            <img src="{{ image }}" width="300" height="200">
+        </br>
+            <h>{{ dish.name }}</h>
+        </br>
+        </a>
 
-    </a>
-    <h>{{ pri[count.c] }} missing ingredients</h>
-    {% if count.update({'c': count.c + 1}) %}{% endif %}
-    </br>
-{% endfor %}
+        <h>{{ pri[count.c] }} missing ingredients</h>
+        {% if count.update({'c': count.c + 1}) %}{% endif %}
+        </br>
+        </br>
+        </br>
+    </div>
+
+        {% endfor %}
+    </div>
+
+<div class="footer">
+    <div class="row">
+        <div class="col-6">
+            <a id="recipegen" href="{{ url_for('home') }}"><img src="static/img2.png" width="40em" height="60em"></a>
+        </div>
+        <div class="col-6">
+            <img src="static/img1.png" width="40em" height="60em">
+        </div>
+    </div>
+</div>
 {% endblock %}
