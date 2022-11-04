@@ -5,13 +5,13 @@ The fact that many people start learning to cook food by themself instead of din
 
 **Check out this link**: (https://cookify-nwhack-2021.herokuapp.com/) 
 
-## How does Cookify works?
+## How does Cookify work?
 1. Ask a user to create a grocery list 
 2. Allow a user to add or delete items in the list
 3. Take ingredients in the list to generate the top 3 dishes that match the available ingredients in the list
 4. Allow a user to choose to explore each of those top 3 dishes
-5. Provide the amount of needed ingredient to cook those dishes
-6. Provide cooking videos that teach users step-by-step on how to cook those dishes
+5. Provide the amount of ingredients needed to cook those dishes
+6. Provide cooking videos that teaches users step-by-step on how to cook those dishes
 
 ## Key Skills
 * Python
