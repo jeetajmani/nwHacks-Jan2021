@@ -1,7 +1,7 @@
 # Cookify-nwHacks2021
 Cookify is a responsive web application, combining a grocery list app and a cooking app, that logically generates the top 3 dishes matching ingredients in a users' grocery list. It means to help a user have an easier time to create a grocery list and learn how to cook various dishes from the ingredients that they already have.
 
-The fact that many people start learning to cook food by themself instead of dining out during the COVID-19 pandemic inspires me to come up with the idea for this project.
+The fact that many people started learning to cook food by themselves instead of dining out during the COVID-19 pandemic inspired us to come up with the idea for this project.
 
 **Check out this link**: (https://cookify-nwhack-2021.herokuapp.com/) 
 
